@@ -3,7 +3,7 @@ dist: focal
 language: python
 
 python:
-  - 3.10
+  - 3.8
 
 install:
   - sudo apt -y install python3-distutils
@@ -12,6 +12,7 @@ install:
   - git clone https://github.com/ZohanKZS/test_kivy2.git
   - python3 -m site
   - ls -l
+  - cd buildozer
   - ls -l
   - python3 setup.py install
   - ls -l
